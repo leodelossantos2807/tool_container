@@ -35,7 +35,7 @@ function Tracker(dataFile, videoFile, videoFileOut, csvTracks, reformat_dataFile
 	um2px = 1/px2um;
 
 	% Initalize Filter
-	T = 1/10;   % (sec) sample period
+	T = 1/fps;   % (sec) sample period
 
 	% Dynamical System & Measurement Equation
 	F = [1 0 T 0; 0 1 0 T; 0 0 1 0; 0 0 0 1];
