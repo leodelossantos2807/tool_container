@@ -5,7 +5,7 @@ To make the base image and have the container runnig, go to tool_containerized d
 sudo bash build_and_run.sh
 ```
 
-If all works okay, in the consolo you will be inside the container. 
+If all works okay, in the console you will be inside the container. 
 To run the tool, make shure that in the folder data/input are the inputs (.tif files) and in configs are edited too acording to the new data. 
 Inside the docker, go to docker_project/tool. 
 Then run the tool by typing:
